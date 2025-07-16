@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['container - v3 2025-01-09 2-02pm']
+
+roboflow:
+  workspace: detectionnumerosconteneurs
+  project: detection_numeros_conteneurs
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/detectionnumerosconteneurs/detection_numeros_conteneurs/1
